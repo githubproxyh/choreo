@@ -3,8 +3,8 @@
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'d342d11e-d575-4583-b36e-524ab1f0afa4'}
-WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'password'}
+WEB_USERNAME=${WEB_USERNAME:-'xiaokanfengyun'}
+WEB_PASSWORD=${WEB_PASSWORD:-'cqw20232023'}
 
 check_argo() {
   ! nc -vzw3 198.41.192.77 7844 && echo -e '********************\nError: Argo 不可用\n********************' && exit 1 || echo -e '********************\nArgo 可用\n********************'
